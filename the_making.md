@@ -37,3 +37,6 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:g
 - `...${API_KEY}` is called a *template literal*.
 - `headers:{content-type:"application/json"}` it tells the header that I sending JSON data
 - `body: JSON.stringify(data)` sends data as json
+- `prompt()` is used to get input and it's **blocking**,prompt() is blocking
+When JavaScript hits *prompt()*, it pauses execution of all the code until the user enters something or cancels the prompt.
+---

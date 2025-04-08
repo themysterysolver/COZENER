@@ -2,10 +2,13 @@ document.addEventListener('mouseup',()=>{
     let text=window.getSelection().toString();
     console.log(text);
 
-    let API_KEY="YOUR_API_KEY"
+    let extra_question=prompt("What do you wnat to do with this text?Expalin more,give a prompt:");
+    let final_text=text+"\n"+extra_question;
+
+    let API_KEY="GEMINI_API_KEY"
     const data={
         "contents": [{
-            "parts":[{"text": `${text}`}]
+            "parts":[{"text": `${final_text}`}]
             }]
         }
     
