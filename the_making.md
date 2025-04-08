@@ -29,3 +29,11 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:g
 - `-d` defined ***data** bidy of the request.
 - `grep` search for a line for the given pattern in the file
 - `chmod` makes it executable
+
+---
+
+#### js
+- `fetch()` is used to do a ***http*** request.
+- `...${API_KEY}` is called a *template literal*.
+- `headers:{content-type:"application/json"}` it tells the header that I sending JSON data
+- `body: JSON.stringify(data)` sends data as json
