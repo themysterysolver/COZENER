@@ -1,8 +1,12 @@
-document.addEventListener('mouseup',()=>{
+function handleMouseUp(){
     let text=window.getSelection().toString();
-    console.log(text);
-
-    let extra_question=prompt("What do you wnat to do with this text?Expalin more,give a prompt:");
+    if (!text||text.length===0) return;
+    //console.log(text);
+    
+    let extra_question=prompt(`Type:remove to exit\nWhat do you want to do with this text? Explain more or give a prompt:`);
+    if(extra_question==="remove"){
+        document.removeEventListener('mouseup',handleMouseUp);
+    }
     let final_text=text+"\n"+extra_question;
 
     let API_KEY="GEMINI_API_KEY"
@@ -24,4 +28,5 @@ document.addEventListener('mouseup',()=>{
     }).catch(err => {
         console.error("Error:", err);
     });
-});
+}
+document.addEventListener('mouseup',handleMouseUp);
