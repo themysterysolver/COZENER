@@ -1,4 +1,4 @@
-# 🚀COZENER
+8# 🚀COZENER
 - "Pasting this `cozener.js` code in console page helps you in your online assesments without switching tabs!"
 - This uses `GEMINI_API_KEY` and it's **API**.
 - It comes very handy in many online proctored assements where *switching tab* is a violation against the test.
@@ -25,7 +25,7 @@
 - I love shortcuts and love making new things.**Love shortcuts, love automating.**
 
 >🤫  **FUN NOTE**:A cozener is someone who uses clever or deceptive means to trick or deceive others, often for personal gain.<br>
-> You're not cheating... you're just engineering an edge 😏
+> You're not cheating... you're just engineering an edge. 😏
 
 
   
