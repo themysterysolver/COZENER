@@ -1,4 +1,4 @@
-8# 🚀COZENER
+# 🚀COZENER
 - "Pasting this `cozener.js` code in console page helps you in your online assesments without switching tabs!"
 - This uses `GEMINI_API_KEY` and it's **API**.
 - It comes very handy in many online proctored assements where *switching tab* is a violation against the test.
